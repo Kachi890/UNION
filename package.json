@@ -1,0 +1,17 @@
+{
+  "name": "base-token",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:base": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^3.0.0",
+    "hardhat": "^2.15.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0"
+  }
+}
